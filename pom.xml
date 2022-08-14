@@ -11,6 +11,7 @@
 
     <modules>
         <module>02_lucky-ticket</module>
+        <module>03_algebraic-algorithms</module>
     </modules>
 
     <dependencyManagement>
