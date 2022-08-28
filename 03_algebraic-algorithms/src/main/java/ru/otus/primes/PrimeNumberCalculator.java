@@ -67,7 +67,7 @@ public class PrimeNumberCalculator {
                 pr.add(i);
             }
             for (Integer p : pr) {
-                if (p <= lp[i] && (long) p * (long) i <= limit && p!= 0) {
+                if (p <= lp[i] && (long) p * (long) i <= limit) {
                     lp[p * i] = p;
                 }
             }
