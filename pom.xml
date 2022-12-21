@@ -12,7 +12,15 @@
     <modules>
         <module>02_lucky-ticket</module>
         <module>03_algebraic-algorithms</module>
+        <module>04_data-structures</module>
+        <module>06_sorting-algorithms</module>
     </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
 
     <dependencyManagement>
         <dependencies>
@@ -35,11 +43,5 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-    </properties>
 
 </project>

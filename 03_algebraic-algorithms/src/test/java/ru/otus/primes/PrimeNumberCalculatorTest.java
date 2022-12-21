@@ -33,10 +33,10 @@ public class PrimeNumberCalculatorTest {
         Assert.assertEquals(1229, primeNumberCalculator.countPrimeNumbersDividePrime(10_000));
         Assert.assertEquals(9592, primeNumberCalculator.countPrimeNumbersDividePrime(100_000));
         Assert.assertEquals(78498, primeNumberCalculator.countPrimeNumbersDividePrime(1_000_000));
-        Assert.assertEquals(664579, primeNumberCalculator.countPrimeNumbersDividePrime(10_000_000));
-        Assert.assertEquals(5761455, primeNumberCalculator.countPrimeNumbersDividePrime(100_000_000));
         // too long
-//        Assert.assertEquals(50847534, primeNumberCalculator.countPrimeNumbersDividePrime(1_000_000_000));
+        //Assert.assertEquals(664579, primeNumberCalculator.countPrimeNumbersDividePrime(10_000_000));
+        //Assert.assertEquals(5761455, primeNumberCalculator.countPrimeNumbersDividePrime(100_000_000));
+        //Assert.assertEquals(50847534, primeNumberCalculator.countPrimeNumbersDividePrime(1_000_000_000));
     }
 
     @Test
@@ -47,9 +47,10 @@ public class PrimeNumberCalculatorTest {
         Assert.assertEquals(1229, primeNumberCalculator.countPrimeNumbersEratosphene(10_000));
         Assert.assertEquals(9592, primeNumberCalculator.countPrimeNumbersEratosphene(100_000));
         Assert.assertEquals(78498, primeNumberCalculator.countPrimeNumbersEratosphene(1_000_000));
-        Assert.assertEquals(664579, primeNumberCalculator.countPrimeNumbersEratosphene(10_000_000));
-        Assert.assertEquals(5761455, primeNumberCalculator.countPrimeNumbersEratosphene(100_000_000));
-        Assert.assertEquals(50847534, primeNumberCalculator.countPrimeNumbersEratosphene(1_000_000_000));
+        // too long
+        //Assert.assertEquals(664579, primeNumberCalculator.countPrimeNumbersEratosphene(10_000_000));
+        //Assert.assertEquals(5761455, primeNumberCalculator.countPrimeNumbersEratosphene(100_000_000));
+        //Assert.assertEquals(50847534, primeNumberCalculator.countPrimeNumbersEratosphene(1_000_000_000));
     }
 
     @Test

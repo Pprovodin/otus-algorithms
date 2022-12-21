@@ -9,22 +9,14 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>02_lucky-ticket</artifactId>
+  <artifactId>04_data-structures</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>lucky-ticket</name>
+  <name>data-structures</name>
 
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.commons</groupId>
-      <artifactId>commons-lang3</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.projectlombok</groupId>
-      <artifactId>lombok</artifactId>
     </dependency>
   </dependencies>
 
