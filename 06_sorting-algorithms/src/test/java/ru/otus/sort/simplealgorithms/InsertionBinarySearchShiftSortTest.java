@@ -1,4 +1,4 @@
-package ru.otus.sort.simplealgorithms.impl;
+package ru.otus.sort.simplealgorithms;
 
 import org.junit.Assert;
 import org.junit.Before;

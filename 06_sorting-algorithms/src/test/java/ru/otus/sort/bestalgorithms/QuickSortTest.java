@@ -1,11 +1,11 @@
-package ru.otus.sort.simplealgorithms.impl;
+package ru.otus.sort.bestalgorithms;
 
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import ru.otus.sort.Sort;
 
-public class InsertionShiftSortTest {
+public class QuickSortTest {
 
     private int[] array;
     private final int[] sortedArray = {1, 2, 3, 4, 5, 6, 7, 8, 9};
@@ -17,8 +17,8 @@ public class InsertionShiftSortTest {
 
     @Test
     public void shouldBeSorted() {
-        Sort insertionShiftSort = new InsertionShiftSort(array);
-        insertionShiftSort.sort();
+        Sort quickSort = new QuickSort(array);
+        quickSort.sort();
         Assert.assertArrayEquals(sortedArray, array);
     }
 }

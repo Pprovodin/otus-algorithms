@@ -18,6 +18,10 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
         </dependency>
+        <dependency>
+            <groupId>ru.otus</groupId>
+            <artifactId>stopwatch</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

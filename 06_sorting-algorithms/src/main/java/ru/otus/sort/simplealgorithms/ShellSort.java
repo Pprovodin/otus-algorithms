@@ -1,4 +1,4 @@
-package ru.otus.sort.simplealgorithms.impl;
+package ru.otus.sort.simplealgorithms;
 
 import ru.otus.sort.Sort;
 
