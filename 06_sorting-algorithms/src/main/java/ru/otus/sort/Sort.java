@@ -1,7 +1,7 @@
 package ru.otus.sort;
 
 public abstract class Sort {
-    public int[] array;
+    protected final int[] array;
 
     public Sort(int[] array) {
         this.array = array;
