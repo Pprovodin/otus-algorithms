@@ -36,7 +36,7 @@ public class ComparisonAlgorithms {
             int[] arrayForTest = new int[array.length];
             for (Class<? extends Sort> clazz : sortingAlgorithms) {
                 System.arraycopy(array, 0, arrayForTest, 0, array.length);
-                Sort sorter = clazz.getDeclaredConstructor(int[].class).newInstance(arrayForTest);
+                Sort sorter = clazz.getDeclaredConstructor(int[].class).newInstance((Object) arrayForTest);
                 Runnable task = sorter::sort;
                 stopwatch.start();
                 Future<?> future = executor.submit(task);

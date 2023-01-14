@@ -11,7 +11,7 @@
   </parent>
 
   <groupId>ru.otus</groupId>
-  <artifactId>29_dynamic-programming</artifactId>
+  <artifactId>16_prefix-tree</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <dependencies>
