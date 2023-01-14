@@ -15,6 +15,7 @@
         <module>04_data-structures</module>
         <module>06_sorting-algorithms</module>
         <module>stopwatch</module>
+        <module>29_dynamic-programming</module>
     </modules>
 
     <properties>
