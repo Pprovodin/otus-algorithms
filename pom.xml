@@ -18,6 +18,7 @@
         <module>29_dynamic-programming</module>
         <module>16_prefix-tree</module>
         <module>30_difficult-problem</module>
+        <module>23_string-algorithms</module>
     </modules>
 
     <properties>
