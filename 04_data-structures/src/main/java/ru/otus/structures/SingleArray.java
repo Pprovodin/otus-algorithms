@@ -1,5 +1,11 @@
 package ru.otus.structures;
 
+import lombok.EqualsAndHashCode;
+
+import java.util.Arrays;
+
+@EqualsAndHashCode
+@SuppressWarnings("unchecked")
 public class SingleArray<T> implements IArray<T> {
 
     private T[] array;
@@ -8,6 +14,11 @@ public class SingleArray<T> implements IArray<T> {
     public SingleArray() {
         array = (T[]) (new Object[0]);
         size = 0;
+    }
+
+    public SingleArray(T[] array) {
+        this.array = array;
+        this.size = array.length;
     }
 
     @Override
@@ -36,8 +47,9 @@ public class SingleArray<T> implements IArray<T> {
     public void put(T item, int index) {
         T[] newArray = (T[]) (new Object[size + 1]);
         System.arraycopy(array, 0, newArray, 0 , index);
-        array[index] = item;
+        newArray[index] = item;
         System.arraycopy(array, index, newArray, index + 1, size - index);
+        array = newArray;
         size++;
     }
 
@@ -46,20 +58,23 @@ public class SingleArray<T> implements IArray<T> {
         return size;
     }
 
+    @Override
     public T remove(int index) {
         T oldValue = array[index];
-        array[index] = array[size - 1];
         T[] newArray = (T[]) (new Object[size - 1]);
-        System.arraycopy(array, 0, newArray, 0, index);
-        System.arraycopy(array, index + 1, newArray, index, size - index);
 
+        for (int i = 0, k = 0; i < array.length; i++) {
+            if (i == index) {
+                continue;
+            }
+            newArray[k++] = array[i];
+        }
+        array = newArray;
+        size--;
         return oldValue;
     }
 
-    private void fastRemove(Object[] es, int i) {
-        final int newSize;
-        if ((newSize = size - 1) > i)
-            System.arraycopy(es, i + 1, es, i, newSize - i);
-        es[size = newSize] = null;
+    public String toString() {
+        return Arrays.toString(array);
     }
 }

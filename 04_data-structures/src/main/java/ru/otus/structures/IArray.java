@@ -5,6 +5,7 @@ public interface IArray<T> {
     void put(T item);
     void put(T item, int index);
     int size();
+    T remove(int index);
     default boolean isEmpty() {
         return size() == 0;
     }
