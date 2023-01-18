@@ -1,3 +1,49 @@
+# Comparison table
+Time provided in milliseconds
+
+| operation                         	| size     	| Simple BST 	| AVL Tree 	|
+|-----------------------------------	|----------	|------------	|----------	|
+| Insert Increasing                 	| 100      	| 0          	| 2        	|
+|                                   	| 1000     	| 4          	| 0        	|
+|                                   	| 10000    	| 257        	| 2        	|
+|                                   	| 100000   	| 22,821     	| 13       	|
+|                                   	| 1000000  	| timeout    	| 125      	|
+|                                   	| 10000000 	| timeout    	| 1,919    	|
+| Insert Random                     	| 100      	| 4          	| 1        	|
+|                                   	| 1000     	| 0          	| 1        	|
+|                                   	| 10000    	| 3          	| 6        	|
+|                                   	| 100000   	| 36         	| 55       	|
+|                                   	| 1000000  	| 575        	| 953      	|
+|                                   	| 10000000 	| 9,626      	| 11,831   	|
+| Remove from Increasing (half elements) 	| 100      	| 2          	| 4        	|
+|                                   	| 1000     	| 1          	| 1        	|
+|                                   	| 10000    	| 60         	| 6        	|
+|                                   	| 100000   	| 7,198      	| 68       	|
+|                                   	| 1000000  	| timeout    	| 852      	|
+|                                   	| 10000000 	| timeout    	| 10,379   	|
+| Remove from Increasing (10% elements)  	| 100      	| 2          	| 3        	|
+|                                   	| 1000     	| 0          	| 1        	|
+|                                   	| 10000    	| 21         	| 5        	|
+|                                   	| 100000   	| 2,147      	| 65       	|
+|                                   	| 1000000  	| timeout    	| 798      	|
+|                                   	| 10000000 	| timeout    	| 10,853   	|
+| Remove from Random (half elements)     	| 100      	| 0          	| 3        	|
+|                                   	| 1000     	| 0          	| 1        	|
+|                                   	| 10000    	| 5          	| 8        	|
+|                                   	| 100000   	| 82         	| 73       	|
+|                                   	| 1000000  	| 963        	| 971      	|
+|                                   	| 10000000 	| 17,467     	| 16,058   	|
+| Remove from Random (10% elements)      	| 100      	| 0          	| 3        	|
+|                                   	| 1000     	| 0          	| 0        	|
+|                                   	| 10000    	| 5          	| 6        	|
+|                                   	| 100000   	| 65         	| 63       	|
+|                                   	| 1000000  	| 766        	| 778      	|
+|                                   	| 10000000 	| 15,071     	| 13,702   	|
+
+
+# Results from console
+
+
 Insert increasing:
 size = 100;	time = 2;	algorithm - AvlTree;	height - 7
 size = 100;	time = 0;	algorithm - BinarySearchTree;	height - 100
