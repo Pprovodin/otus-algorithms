@@ -19,6 +19,7 @@
         <module>16_prefix-tree</module>
         <module>30_difficult-problem</module>
         <module>23_string-algorithms</module>
+        <module>10_binary-tree</module>
     </modules>
 
     <properties>
