@@ -1,6 +1,6 @@
 package ru.otus.binarytree;
 
-public class AvlTree <T extends Comparable<? super T>> implements BinaryTree<T> {
+public class AvlTree<T extends Comparable<? super T>> implements BinaryTree<T> {
     private AvlNode<T> root;
 
     @Override
