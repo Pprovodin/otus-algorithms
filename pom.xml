@@ -21,6 +21,8 @@
         <module>23_string-algorithms</module>
         <module>10_binary-tree</module>
         <module>17_graphs</module>
+        <module>05_bit-arithmetic</module>
+        <module>13_hashtable</module>
     </modules>
 
     <properties>
