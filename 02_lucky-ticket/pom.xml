@@ -11,7 +11,7 @@
 
   <artifactId>02_lucky-ticket</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>lucky-ticket</name>
+  <name>02_lucky-ticket</name>
 
   <dependencies>
     <dependency>

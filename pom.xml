@@ -13,16 +13,17 @@
         <module>02_lucky-ticket</module>
         <module>03_algebraic-algorithms</module>
         <module>04_data-structures</module>
-        <module>06_sorting-algorithms</module>
-        <module>stopwatch</module>
-        <module>29_dynamic-programming</module>
-        <module>16_prefix-tree</module>
-        <module>30_difficult-problem</module>
-        <module>23_string-algorithms</module>
-        <module>10_binary-tree</module>
-        <module>17_graphs</module>
         <module>05_bit-arithmetic</module>
+        <module>06_sorting-algorithms</module>
+        <module>10_binary-tree</module>
         <module>13_hashtable</module>
+        <module>16_prefix-tree</module>
+        <module>17_graphs</module>
+        <module>23_string-algorithms</module>
+        <module>26_run-length-encoding</module>
+        <module>29_dynamic-programming</module>
+        <module>30_difficult-problem</module>
+        <module>stopwatch</module>
     </modules>
 
     <properties>

@@ -11,7 +11,7 @@
 
   <artifactId>03_algebraic-algorithms</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>algebraic-algorithms</name>
+  <name>03_algebraic-algorithms</name>
 
   <dependencies>
     <dependency>

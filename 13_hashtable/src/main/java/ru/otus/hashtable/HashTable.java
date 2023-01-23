@@ -1,5 +1,6 @@
 package ru.otus.hashtable;
 
+@SuppressWarnings("unchecked")
 public class HashTable<K, V> {
     private static final int DEFAULT_INITIAL_CAPACITY = 1 << 4;
     private static final float LOAD_FACTOR = 0.5f;

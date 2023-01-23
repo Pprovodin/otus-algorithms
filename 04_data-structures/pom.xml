@@ -11,7 +11,7 @@
 
   <artifactId>04_data-structures</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>data-structures</name>
+  <name>04_data-structures</name>
 
   <dependencies>
     <dependency>
