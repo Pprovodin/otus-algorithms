@@ -23,6 +23,7 @@
         <module>26_run-length-encoding</module>
         <module>29_dynamic-programming</module>
         <module>30_difficult-problem</module>
+        <module>31_bloom-filter</module>
         <module>stopwatch</module>
     </modules>
 
@@ -55,6 +56,11 @@
                 <groupId>ru.otus</groupId>
                 <artifactId>stopwatch</artifactId>
                 <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>19.0</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
